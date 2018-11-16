@@ -1,0 +1,47 @@
+{
+  "projects": {
+    "dev": "redux-firebasev3",
+    "stage": "redux-firebasev3",
+    "master": "redux-firebasev3",
+    "prod": "redux-firebasev3",
+    "default": "redux-firebasev3"
+  },
+  "ci": {
+    "createConfig": {
+      "master": {
+        "version": "${npm_package_version}",
+        "env": "development",
+        "firebase": {
+          apiKey: "AIzaSyD7arfum5TDQgsWubWvx3D0vnPjDv51Ugc",
+          authDomain: "promania-b211e.firebaseapp.com",
+          databaseURL: "https://promania-b211e.firebaseio.com",
+          projectId: "promania-b211e",
+          storageBucket: "promania-b211e.appspot.com",
+          messagingSenderId: "612699129688"
+        },
+        "reduxFirebase": {
+          "userProfile": "users",
+          "enableLogging": false,
+          "updateProfileOnLogin": false
+        }
+      },
+      "prod": {
+        "version": "${npm_package_version}",
+        "env": "production",
+        "firebase": {
+          apiKey: "AIzaSyD7arfum5TDQgsWubWvx3D0vnPjDv51Ugc",
+          authDomain: "promania-b211e.firebaseapp.com",
+          databaseURL: "https://promania-b211e.firebaseio.com",
+          projectId: "promania-b211e",
+          storageBucket: "promania-b211e.appspot.com",
+          messagingSenderId: "612699129688"
+        },
+        "reduxFirebase": {
+          "userProfile": "users",
+          "enableLogging": false,
+          "updateProfileOnLogin": false
+        }
+      }
+    }
+  }
+}
