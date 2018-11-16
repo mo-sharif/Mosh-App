@@ -4,5 +4,6 @@
 **/.DS_Store
 **/dist
 **/node_modules
+/config/
 coverage
 src/config.js
