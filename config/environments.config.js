@@ -40,12 +40,12 @@ module.exports = {
       colors: true
     },
     firebase: {
-      apiKey: "AIzaSyD7arfum5TDQgsWubWvx3D0vnPjDv51Ugc",
-      authDomain: "promania-b211e.firebaseapp.com",
-      databaseURL: "https://promania-b211e.firebaseio.com",
-      projectId: "promania-b211e",
-      storageBucket: "promania-b211e.appspot.com",
-      messagingSenderId: "612699129688"
+      apiKey: 'AIzaSyD7arfum5TDQgsWubWvx3D0vnPjDv51Ugc',
+      authDomain: 'promania-b211e.firebaseapp.com',
+      databaseURL: 'https://promania-b211e.firebaseio.com',
+      projectId: 'promania-b211e',
+      storageBucket: 'promania-b211e.appspot.com',
+      messagingSenderId: '612699129688'
     },
     reduxFirebase: {
       userProfile: 'users', // root that user profiles are written to

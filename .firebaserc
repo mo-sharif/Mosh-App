@@ -12,12 +12,12 @@
         "version": "${npm_package_version}",
         "env": "development",
         "firebase": {
-          apiKey: "AIzaSyD7arfum5TDQgsWubWvx3D0vnPjDv51Ugc",
-          authDomain: "promania-b211e.firebaseapp.com",
-          databaseURL: "https://promania-b211e.firebaseio.com",
-          projectId: "promania-b211e",
-          storageBucket: "promania-b211e.appspot.com",
-          messagingSenderId: "612699129688"
+          apiKey: 'AIzaSyD7arfum5TDQgsWubWvx3D0vnPjDv51Ugc',
+          authDomain: 'promania-b211e.firebaseapp.com',
+          databaseURL: 'https://promania-b211e.firebaseio.com',
+          projectId: 'promania-b211e',
+          storageBucket: 'promania-b211e.appspot.com',
+          messagingSenderId: '612699129688'
         },
         "reduxFirebase": {
           "userProfile": "users",
@@ -29,12 +29,12 @@
         "version": "${npm_package_version}",
         "env": "production",
         "firebase": {
-          apiKey: "AIzaSyD7arfum5TDQgsWubWvx3D0vnPjDv51Ugc",
-          authDomain: "promania-b211e.firebaseapp.com",
-          databaseURL: "https://promania-b211e.firebaseio.com",
-          projectId: "promania-b211e",
-          storageBucket: "promania-b211e.appspot.com",
-          messagingSenderId: "612699129688"
+         apiKey: 'AIzaSyD7arfum5TDQgsWubWvx3D0vnPjDv51Ugc',
+      authDomain: 'promania-b211e.firebaseapp.com',
+      databaseURL: 'https://promania-b211e.firebaseio.com',
+      projectId: 'promania-b211e',
+      storageBucket: 'promania-b211e.appspot.com',
+      messagingSenderId: '612699129688'
         },
         "reduxFirebase": {
           "userProfile": "users",
